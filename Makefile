@@ -13,7 +13,7 @@ PROTOC_GEN = protoc -I $(PROTO_DIR) $(PROTO_DIR)/sso/sso.proto \
 proto-generate: $(OUT_DIR)
 	$(PROTOC_GEN)
 
-# Ensure output directory exists
+# Ensure output directory existss
 $(OUT_DIR):
 	@mkdir -p $(OUT_DIR)
 
